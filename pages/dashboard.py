@@ -1,9 +1,10 @@
 import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
+
 st.set_page_config(page_title="Dashboard    ", page_icon="🎛️", layout="wide")
-st.header("Welcome to the Mission Control Center",text_alignment="center")
-st.header("Welcome to the :violet[_Dashboard_] 📡",text_alignment="center",divider="yellow")
+st.header("Welcome to the Mission Control Center", text_alignment="center")
+st.header("Welcome to the :violet[_Dashboard_] 📡", text_alignment="center", divider="yellow")
 
 lcolumn, mcolumn, rcolumn = st.columns(3)
 
@@ -39,5 +40,3 @@ with rcolumn:
     st.image("images\Screenshot 2026-07-06 181234.png",
              use_container_width=True)
     st.link_button("Click Here to Play! 🎮", "https://2753671.playcode.io")
-
-
