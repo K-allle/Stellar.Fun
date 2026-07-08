@@ -29,7 +29,7 @@ with mcolumn:
     st.write("##")
     st.write("##")
 
-    st.image(r"C:\Users\allek\Downloads\unnamed-removebg-preview.png")
+    st.image("images/unnamed-removebg-preview.png")
     if st.button(":red[Log out]"):
         st.switch_page("stellarhome.py")
 with rcolumn:
