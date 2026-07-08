@@ -1,10 +1,9 @@
 import streamlit as st
-import auth
 st.set_page_config(page_title="Log In", page_icon="📖", layout="wide")
 lcolumn, rcolumn = st.columns(2)
 with lcolumn:
     st.title("Log in to :red[Stellar.FUN]")
-    st.image(r"C:\Users\allek\Downloads\unnamed-removebg-preview.png", width=300)
+    st.image("images/unnamed-removebg-preview.png", width=300)
 
 with rcolumn:
     email_log = st.text_input('Email Address')

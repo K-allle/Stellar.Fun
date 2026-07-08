@@ -17,7 +17,7 @@ with one:
     st.subheader("Your :violet[Space Exploration] Awaits You!")
     st.header("Have :violet[limitless] fun on :blue[Stellar.Fun] :rocket:", divider='yellow')
 with two:
-    st.image(r"C:\Users\allek\Downloads\unnamed-removebg-preview.png", width=200)
+    st.image("images/unnamed-removebg-preview.png", width=200)
     if st.button(":yellow[Already have an account?]"):
         st.switch_page("pages/log.py")
 
