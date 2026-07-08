@@ -9,7 +9,7 @@ st.header("Welcome to the :violet[_Dashboard_] 📡", text_alignment="center", d
 lcolumn, mcolumn, rcolumn = st.columns(3)
 
 with lcolumn:
-    st.image("images\Screenshot 2026-07-06 153552.png",
+    st.image("images\aScreenshot 2026-07-06 153552.png",
              use_container_width=True)
     st.link_button("Click Here to Play! 🎮", "https://2753628.playcode.io/")
     st.write("##")
